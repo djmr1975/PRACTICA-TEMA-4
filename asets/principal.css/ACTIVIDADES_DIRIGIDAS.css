@@ -1,0 +1,421 @@
+/* Estilos personalizados */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* ------------ MENÚ --------*/
+
+.custom-icon path {
+    fill: white;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1c2328;
+    display: flex;
+    justify-content: flex-end;
+    /* Alinea los elementos a la derecha */
+    align-items: center;
+    /* Centra verticalmente los elementos */
+    padding: 10px 0;
+}
+
+.menu .nav-link {
+    color: rgb(254, 254, 254);
+    font-size: 11px;
+    transition: color 0.3s;/* Transición suave para el cambio de color */
+}
+
+/* Estilo para cambiar el color del texto al pasar el ratón sobre los enlaces */
+.menu .nav-link:hover {
+    color: rgb(9, 189, 96);
+    /* Color de texto al pasar el ratón */
+}
+
+.nav-link.active {
+    color: rgb(234, 255, 0) !important;
+    /* Cambia el color del texto del enlace activo a rojo */
+    /* También puedes cambiar otros estilos, como el fondo o el subrayado si lo deseas */
+}
+
+.menu .nav {
+    display: flex;
+    /* Utiliza flexbox para distribuir los elementos */
+    justify-content: flex-end;
+    /* Alinea los elementos al final del contenedor */
+    gap: 5px;
+    /* Agrega un espacio entre los elementos */
+}
+
+.menu .nav-item {
+    list-style: none;
+    /* Quita los puntos de la lista */
+}
+
+.menu .nav-underline>li:last-child {
+    margin-right: 20px;
+}
+
+/*---------------FIN MENÚ -------------*/
+
+/*------------------------------------ logos menú -----------------------------*/
+
+
+/* Estilo para los elementos de lista */
+li {
+    list-style: none;
+    /* Quita los puntos de la lista */
+}
+
+/* Estilo para el contenedor de los logotipos */
+.logos-container {
+    display: inline-block;
+    /* Cambia a un elemento de bloque en línea */
+}
+
+/* Estilo para los elementos de la lista */
+ul {
+    padding: 0;
+    /* Elimina el relleno predeterminado de la lista */
+}
+
+/* Estilo para los elementos <li> que contienen los logotipos */
+.lolog1,
+.lolog2,
+.lolog3,
+.logo4,
+.logo5,
+.logo6 {
+    display: inline-block;
+    /* Hace que los elementos <li> se muestren en línea */
+    margin-right: 10px;
+    /* Espacio entre cada logotipo y el texto */
+    vertical-align: middle;
+    /* Alinea verticalmente con el texto */
+}
+
+/* Estilo para los logotipos */
+svg {
+    width: 20px;
+    /* Tamaño del logo */
+    height: 20px;
+    /* Tamaño del logo */
+    margin-right: 2px;
+    /* Espacio entre cada logo */
+    fill: rgb(108, 240, 20);
+    /* Cambia el color de los logotipos a blanco */
+}
+
+/*-------------------------- fin logo menú --------------------*/
+
+/*__________________________________________ 1 ____________________________________________*/
+
+ /* Estilo adicional para el carrousel */
+ #carouselExampleFade {
+     width: 100%;
+     height: 100%;
+
+ }
+
+ .btn-1,
+ .btn-2,
+ .btn-3{
+    background-color: rgb(255, 255, 255) !important;
+    color: #1c2328 ;
+ }
+
+ .btn-1:hover{
+    color: rgb(4, 4, 4) ;
+    background-color: rgb(14, 13, 14) !important;
+ }
+
+ .btn-2:hover{
+    color: rgb(4, 4, 4);
+    background-color: rgb(10, 10, 10) !important;
+ }
+ 
+ .btn-3:hover{
+    color: rgb(4, 4, 4);
+    background-color: rgb(10, 10, 10) !important;
+ }
+
+ /* Estilo para asegurar que el carrousel ocupe toda la altura del contenedor */
+ .new-columna-ubi {
+     height: 100%;
+ }
+
+.carro-1 {
+    color: rgb(255, 255, 255);
+    font-size: 600%;
+    font-weight: 700;
+}
+
+.carrotex-1{
+    color: #fbfbfb;
+    font-size: 20px;
+}
+
+.carro-2 {
+    color: rgb(247, 245, 245);
+    font-size: 600%;
+    font-weight: 700;
+}
+
+.carrotex-2 {
+    color: #fbfbfb;
+    font-size: 20px;
+}
+
+.carro-3 {
+    color: rgb(255, 255, 255);
+    font-size: 600%;
+    font-weight: 700;
+}
+
+.carrotex-3 {
+    color: #fbfbfb;
+    font-size: 20px;
+}
+
+
+
+/*__________________________________________ fin 1 ____________________________________________*/
+
+
+
+/* Estilos para las diferentes secciones */
+#section_0 {
+    background-image: url("../img/combi4_0.jpg");/* Ruta de la imagen de fondo */
+    background-size: cover;/* Ajusta el tamaño de la imagen para cubrir todo el div */
+    background-position: center;/* Centra la imagen de fondo */
+    padding: 5rem 0; /* Relleno superior e inferior */
+    height: 100vh; /* ocupa todo el alto de la imagne */
+    /* us*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo de letra extraído de la clase Header40styled__Title-sc-1x4p0l3-4 */
+.custom-font {
+    font-family: Arial, sans-serif;
+    font-size: 6.5em;
+    /* Tamaño de letra ajustado según preferencia */
+    font-weight: 900;
+    /* Grosor de la letra */
+    color: rgb(255, 6, 122);
+    text-align: center;
+}
+
+
+
+/*=============================== SECTION 3 ===================================*/
+
+
+/* Estilos para agregar una imagen de fondo a la sección #section3 */
+#section3 {
+    background-image: url("../img/set3.jpg"); /* Ruta de la imagen de fondo */
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position:bottom center; /* Centra la imagen en el fondo */
+    background-attachment: fixed; /* PASA LA IMAGEN POR DEBAJO DE LAS LTRAS */
+    color: white;  /* Cambia el color del texto a blanco para que se vea mejor en la imagen de fondo */
+}
+
+/*======================================= COLUMNA GRANDE EN 3 PEQUEÑAS =================================*/
+
+
+
+#section3-nueva{
+background-color: rgb(248, 248, 169);
+}
+
+.titu1 {
+    color: rgb(3, 3, 3);
+    font-size: 40px;
+    font-weight: 900;
+}
+
+
+
+/* Estilos para el texto pequeño */
+.textopeque1,
+.textopeque2,
+.textopeque3,
+.textopeque4 {
+    font-size: 1rem; /* Tamaño del texto pequeño */
+    line-height: 1.5; /* Espaciado entre líneas */
+}
+
+.teximg-1{
+    color: rgb(5, 5, 5);
+    font-size: 20px ;
+    font-weight: 800;
+}
+
+.btn-warning{
+    height: 60px;
+    width: 90% !important;
+}
+
+.btn-warning:hover {
+    background-color: #ffffff !important; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+    border-color: #f0f0f0 !important;/* Cambia el color del borde al pasar el mouse sobre el botón */
+    color: #007bf5 !important; /* Cambia el color del texto al pasar el mouse sobre el botón */
+}
+
+
+/*======================================= COLUMNA GRANDE EN 3 PEQUEÑAS FIN ================================*/
+
+
+.section4 {
+    background-color: #ff0;
+}
+
+.titu1 {
+    color: #f56e00;
+    font-weight: 800;
+    font-size: 55px;
+}
+
+.teximg-1{
+    color: #0a0a0a;
+}
+
+.titu-carru-1{
+    color: rgb(255, 230, 0);
+    font-weight: 800;
+    font-size: 35px;
+    text-align: left;
+}
+
+.titu-carru-22{
+    color: #1c2328;
+    font-weight: 800;
+    font-size: 35px;
+    text-align: left;
+}
+
+.titu-carru-2{
+    color: #ff0;
+    font-weight: 800;
+    font-size: 35px;
+    text-align: left;
+}
+
+
+.titu-carru-23{
+    color: #1c2328;
+    font-weight: 800;
+    font-size: 35px;
+    text-align: left;
+}
+
+.titu-carru-3{
+    font-weight: 800;
+        font-size: 35px;
+        text-align: left;
+}
+
+
+
+
+/*_______________________________________ FIN SECTION 4 _________________________________*/
+
+.parte-5 {
+    background-color: #fac031; /* Cambia #ffcc00 por el código de color personalizado que desees */
+}
+
+.img-thumbnail:hover {
+    filter: brightness(1.8); /* Ajusta el valor de brillo según prefieras */
+}
+
+.titulo-f {
+    color: #fafafa;
+    font-weight: 800;
+    font-size: 55px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/*_______________________________________________ FIN DE LA 5 ________________________________________*/
+
+
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+}
+
+
+
+
+/* -------------------------------- PIE DE PAGINA ----------------------------------*/
+
+/* PONER EL PIE DE PÁGINA FIJO */
+
+/*footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 7%;
+    background-color: #333;
+    color: #fff;
+    padding: 2px 0; /* Reducir el espacio interno vertical *
+    font-size: 14px;/* Reducir el tamaño del texto *
+    display: flex;
+    justify-content: space-between;/* Distribuir elementos a los lados del contenedor *
+    align-items: center;
+    padding-left: 50px; /* Ajuste de margen izquierdo para espacio interno *
+    padding-right: 50px;/* Ajuste de margen derecho para espacio interno *
+}
+*/
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* Esto distribuirá los elementos a los lados del contenedor */
+    align-items: center;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.social-icons li {
+    margin-right: 20px;
+    /* Ajusta este valor según tu preferencia */
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+    /* Eliminar margen derecho del último ícono */
+}
+
+.logo {
+    margin-left: 50px;
+    /* Añadir espacio a la izquierda del logo */
+}
+
+.logo img {
+    width: 44.66px;
+    height: auto;
+}
+
+/* ----------------------------------------- FIN PIE DE PÁG --------------------------------*/

@@ -1,0 +1,342 @@
+
+
+/* Estilos personalizados */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------ MENÚ --------*/
+
+.custom-icon path {
+    fill: white;
+}
+
+.nav-link.active {
+    color: rgb(255, 255, 0) !important;
+    /* Cambia el color del texto del enlace activo a rojo */
+    /* También puedes cambiar otros estilos, como el fondo o el subrayado si lo deseas */
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1c2328;
+    display: flex;
+    justify-content: flex-end;
+    /* Alinea los elementos a la derecha */
+    align-items: center;
+    /* Centra verticalmente los elementos */
+    padding: 10px 0;
+}
+
+.menu .nav-link {
+    font-size: 11px;
+    color: rgb(254, 254, 254);
+    transition: color 0.3s;/* Transición suave para el cambio de color */
+}
+
+/* Estilo para cambiar el color del texto al pasar el ratón sobre los enlaces */
+.menu .nav-link:hover {
+    color: rgb(9, 189, 96);
+    /* Color de texto al pasar el ratón */
+}
+
+.menu .nav {
+    display: flex;
+    /* Utiliza flexbox para distribuir los elementos */
+    justify-content: flex-end;
+    /* Alinea los elementos al final del contenedor */
+    gap: 2px;
+    /* Agrega un espacio entre los elementos */
+}
+
+.menu .nav-item {
+    list-style: none;
+    /* Quita los puntos de la lista */
+}
+
+.menu .nav-underline>li:last-child {
+    margin-right: 20px;
+}
+
+/*---------------FIN MENÚ -------------*/
+
+/*------------------------------------ logos menú -----------------------------*/
+
+
+/* Estilo para los elementos de lista */
+li {
+    list-style: none;
+    /* Quita los puntos de la lista */
+}
+
+/* Estilo para el contenedor de los logotipos */
+.logos-container {
+    display: inline-block;
+    /* Cambia a un elemento de bloque en línea */
+}
+
+/* Estilo para los elementos de la lista */
+ul {
+    padding: 0;
+    /* Elimina el relleno predeterminado de la lista */
+}
+
+/* Estilo para los elementos <li> que contienen los logotipos */
+.lolog1,
+.lolog2,
+.lolog3,
+.logo4,
+.logo5,
+.logo6 {
+    display: inline-block;
+    /* Hace que los elementos <li> se muestren en línea */
+    margin-right: 10px;
+    /* Espacio entre cada logotipo y el texto */
+    vertical-align: middle;
+    /* Alinea verticalmente con el texto */
+}
+
+/* Estilo para los logotipos */
+svg {
+    width: 20px;
+    /* Tamaño del logo */
+    height: 20px;
+    /* Tamaño del logo */
+    margin-right: 2px;
+    /* Espacio entre cada logo */
+    fill: rgb(108, 240, 20);
+    /* Cambia el color de los logotipos a blanco */
+}
+
+/*________________________________________ SECCION 1 ALTA - ABOUT ME degradado 1º __________________________________*/
+
+
+#section1Alta {
+    background-image: linear-gradient(to bottom, rgba(93, 67, 67, 0), rgba(250, 168, 45, 0.887), rgba(252, 2, 248, 0.511), rgb(48, 48, 50)), url('../img/klipartzHM.png');
+    background-size: contain;
+    background-position: center;
+  /*  background-image: no-repeat; */
+}
+
+/* Aplica estilos para ajustar el contenido */
+#section1Alta p {
+    text-align: justify;
+    /* Justifica el texto */
+    margin: 0 auto;
+    /* Establece márgenes automáticos */
+    max-width: 1000px;
+    /* Establece el ancho máximo del contenido */
+    color: #e7f3e8;
+}
+
+
+
+
+
+
+/*__________________________ SECCIÓN 1 ALTA- ABOUT ME chico gym _______________________________*/
+
+
+
+/* Estilos para las secciones */
+section {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para las diferentes secciones */
+#section_0 {
+    background-image: url("../img/chico\ en\ gim.jpg");
+    /* Ruta de la imagen de fondo */
+    background-size: cover;
+    /* Ajusta el tamaño de la imagen para cubrir todo el div */
+    background-position: center;
+    /* Centra la imagen de fondo */
+    padding: 5rem 0;
+    /* Relleno superior e inferior */
+    height: 100vh;
+    /* ocupa todo el alto de la imagne */
+    /* us*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo de letra extraído de la clase Header40styled__Title-sc-1x4p0l3-4 */
+.custom-font {
+    font-family: Arial, sans-serif;
+    font-size: 7.5em;
+    /* Tamaño de letra ajustado según preferencia */
+    font-weight: 900;
+    /* Grosor de la letra */
+    color: rgb(253, 187, 7);
+    text-align: center;
+}
+
+/*_______________________________ fin chico gym _____________________________*/
+
+/*_________________________________________ SECTION 1 About Me #01 chica yoga ______________________________________*/
+
+
+/* Estilos para la sección 1 */
+#section1 {
+
+    padding: 20px;
+    /* Espacio interno */
+
+
+    font-family: 'Arial Narrow Bold', sans-serif;
+    background-image: url('../img/yoga-vinyasa.jpeg');
+    background-repeat: no-repeat;
+    /* Evita que la imagen de fondo se repita */
+    background-size: cover;
+    /* Ajusta la imagen para que cubra toda la columna */
+    background-position: center;
+    /* Centra la imagen */
+    background-size: cover;
+    /* Ajusta la imagen para que cubra toda la columna */
+    height: 700px;
+}
+
+/* Estilos para el título principal */
+#section1 h2 {
+    font-size: 400%;
+    /* Tamaño de fuente */
+    font-weight: 800;
+    margin-bottom: 20px;
+    /* Espacio inferior */
+}
+
+
+.principal {
+    /*  background: -webkit-linear-gradient(rgb(23, 146, 247), rgb(239, 177, 70));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; */
+
+    color: #0011ff;
+}
+
+
+
+/* Estilos para el contenido del acordeón */
+.accordion-body-1 {
+    font-size: 56px;
+    /* Tamaño de fuente */
+    margin-bottom: 20px;
+    /* Espacio inferior */
+}
+
+/* Estilos para la imagen y el texto */
+.image-text-container-1 {
+    text-align: left;
+    /* Alineación del texto a la izquierda */
+}
+
+/* Estilos para el título dentro del contenedor de imagen y texto */
+.image-text-container-1 h3 {
+    color: #0011ff;
+    font-size: 25px;
+    /* Tamaño de fuente */
+    font-weight: 800;
+    margin-bottom: 10px;
+    /* Espacio inferior */
+}
+
+/* Estilos para los párrafos dentro del contenedor de imagen y texto */
+.image-text-container-1 p {
+    color: #000000;
+    font-size: 16px;
+    /* Tamaño de fuente */
+    margin-bottom: 20px;
+    /* Espacio inferior */
+
+
+}
+
+.par-2 {
+    line-height: 1;
+    /* Ajusta el espacio entre líneas al 150% del tamaño de la fuente */
+}
+
+.par-1 {
+    line-height: 1;
+    /* Ajusta el espacio entre líneas al 150% del tamaño de la fuente */
+}
+
+
+
+/*___________________________________ FIN CHICA YOGA ABOUT ME ____________________________*/
+
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* -------------------------------- PIE DE PAGINA ----------------------------------*/
+
+/* PONER EL PIE DE PÁGINA FIJO */
+
+/*footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 7%;
+    background-color: #333;
+    color: #fff;
+    padding: 2px 0; /* Reducir el espacio interno vertical *
+    font-size: 14px;/* Reducir el tamaño del texto *
+    display: flex;
+    justify-content: space-between;/* Distribuir elementos a los lados del contenedor *
+    align-items: center;
+    padding-left: 50px; /* Ajuste de margen izquierdo para espacio interno *
+    padding-right: 50px;/* Ajuste de margen derecho para espacio interno *
+}
+*/
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* Esto distribuirá los elementos a los lados del contenedor */
+    align-items: center;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.social-icons li {
+    margin-right: 20px;
+    /* Ajusta este valor según tu preferencia */
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+    /* Eliminar margen derecho del último ícono */
+}
+
+.logo {
+    margin-left: 50px;
+    /* Añadir espacio a la izquierda del logo */
+}
+
+.logo img {
+    width: 44.66px;
+    height: auto;
+}
+/* ----------------------------------------- FIN PIE DE PÁG --------------------------------*/
+
+

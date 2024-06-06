@@ -1,0 +1,218 @@
+.nav-link.active {
+    color: rgb(255, 255, 0) !important;
+    /* Cambia el color del texto del enlace activo a rojo */
+    /* También puedes cambiar otros estilos, como el fondo o el subrayado si lo deseas */
+}
+
+/*_____________________________________________________________________________________________________________________________*/
+
+#my-row-01 {
+    background-color: rgb(246, 215, 161);
+}
+
+.Titulo-1 {
+    color: #1c2328;
+    font-size: 57px;
+    font-weight: 800;
+}
+
+
+
+/*____________________________________________________________________________________________________________________________*/
+
+#my-row-02 {
+    background-color: #1c2328;
+}
+
+.Titulo-2 {
+    color: rgb(81, 255, 0);
+    font-weight: 800;
+    text-align: center;
+}
+
+
+
+/* __________________________ columna grande FIN centro ____________________*/
+
+
+
+
+
+/*____________________________________________________________________3_______________________________________________________*/
+
+#paquete-precios {
+    color: #1c281d;
+    font-weight: 800;
+    text-align: center;
+    font-size: 57px;
+
+}
+
+.parra-1 {
+    color: #1c2328;
+    font-style: italic;
+    text-align: center;
+}
+
+
+#my-row-numero3 {
+    background-color: rgb(244, 215, 166);
+}
+
+.card-title {
+    color: #1c2328 !important;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #1c2328;
+    font-style: italic;
+}
+
+.btn-primary_tarjeta1 {
+background-color: #6fff00 !important;
+color: #1c2328 !important;
+}
+
+.btn-primary_tarjeta2 {
+background-color: #6fff00 !important;
+color: #1c2328 !important;
+}
+
+.btn-outline_tarjeta3 {
+    background-color: #6fff00 !important;
+    color: #1c2328 !important;
+}
+
+
+
+.btn-primary_el1 {
+    color: #1c2328 !important;
+    background-color: #6aff00 !important; /* Cambia este color al que desees */
+    border-color: #8e28a7 !important;/* Cambia este color al que desees */
+}
+
+.btn-primary_el1:hover {
+    color: antiquewhite !important;
+    background-color: #ff0000 !important;/* Color cuando el botón está en estado de hover */
+    border-color: #691e7e !important; /* Color cuando el botón está en estado de hover */
+}
+
+
+
+.btn-primary_el2 {
+    color: #1c2328 !important;
+    background-color: #6aff00 !important;/* Cambia este color al que desees */
+    border-color: #8e28a7 !important; /* Cambia este color al que desees */
+}
+
+.btn-primary_el2:hover {
+    color: #f2f2f2 !important;
+    background-color: #ff0000!important;/* Color cuando el botón está en estado de hover */
+    border-color: #691e7e !important;/* Color cuando el botón está en estado de hover */
+}
+
+
+
+/*___________________________________________________________________________________________________________________________*/
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo para los logotipos */
+svg {
+    width: 20px;
+    /* Tamaño del logo */
+    height: 20px;
+    /* Tamaño del logo */
+    margin-right: 2px;
+    /* Espacio entre cada logo */
+    fill: rgb(108, 240, 20);
+    /* Cambia el color de los logotipos a blanco */
+}
+
+
+
+
+/* -------------------------------- PIE DE PAGINA ----------------------------------*/
+
+/* PONER EL PIE DE PÁGINA FIJO */
+
+/*footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 7%;
+    background-color: #333;
+    color: #fff;
+    padding: 2px 0; /* Reducir el espacio interno vertical *
+    font-size: 14px;/* Reducir el tamaño del texto *
+    display: flex;
+    justify-content: space-between;/* Distribuir elementos a los lados del contenedor *
+    align-items: center;
+    padding-left: 50px; /* Ajuste de margen izquierdo para espacio interno *
+    padding-right: 50px;/* Ajuste de margen derecho para espacio interno *
+}
+*/
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* Esto distribuirá los elementos a los lados del contenedor */
+    align-items: center;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.social-icons li {
+    margin-right: 20px;
+    /* Ajusta este valor según tu preferencia */
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+    /* Eliminar margen derecho del último ícono */
+}
+
+.logo {
+    margin-left: 50px;
+    /* Añadir espacio a la izquierda del logo */
+}
+
+.logo img {
+    width: 44.66px;
+    height: auto;
+}
+
+/* ----------------------------------------- FIN PIE DE PÁG --------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.texto2_1 {
+    color: #1c2329;
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
